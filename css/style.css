@@ -11,10 +11,11 @@ h1, h3{
 }
 
 #idCaixa{
-    height: 500px;
-    width: 500px;
+    height: 520px;
+    width: 550px;
     margin: auto;
     background-color: white;
+    border-style: solid;
 }
 
 input{
@@ -39,4 +40,8 @@ input{
 
 #idImg{
     padding-top: 100px;
+}
+
+div{
+    border-radius: 10%;
 }
