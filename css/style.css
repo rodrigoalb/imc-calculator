@@ -1,0 +1,42 @@
+#idPrincipal{
+    text-align:center;
+    height: 600px;
+    width: 600px;
+    background-color: #510E80;
+    margin: auto;
+}
+
+h1, h3{
+    color:#C169FF;
+}
+
+#idCaixa{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+input{
+	width: 350px;
+    padding: 5px;
+    margin: 3px;
+    outline-color: #200040;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color:#6000BF;
+}
+
+#idCalcular{
+    position: relative;
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-right: 300px;
+}
+
+#idImg{
+    padding-top: 100px;
+}
