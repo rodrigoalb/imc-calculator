@@ -1,20 +1,25 @@
 #idPrincipal{
     text-align:center;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
     height: 600px;
     width: 600px;
-    background-color: #510E80;
+    background-color: #2b2b2b;
     margin: auto;
 }
 
+body {
+    background-color: #1b1b1b;
+}
 h1, h3{
-    color:#C169FF;
+    text-align: center;
+    color:#999;
 }
 
 #idCaixa{
     height: 520px;
     width: 550px;
     margin: auto;
-    background-color: white;
+    background-color: #1b1b1b;
     border-style: solid;
 }
 
@@ -27,21 +32,48 @@ input{
 }
 
 ::placeholder{
-    color:#6000BF;
+    color:#999;
 }
 
-#idCalcular{
-    position: relative;
-    padding: 10px;
-    margin-left: 0px;
-    border-radius: 10px;
-    margin-right: 300px;
+#idImg {
+    padding-top: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
-#idImg{
-    padding-top: 100px;
-}
-
-div{
+div {
     border-radius: 10%;
+}
+
+#idCalcular, #limpaForm {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+#idCalcular:hover, #limpaForm:hover,
+#idCalcular:focus, #limpaForm:focus {
+  opacity: .75;
 }
