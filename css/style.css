@@ -11,6 +11,12 @@ body {
     background-color: #1b1b1b;
 }
 h1, h3{
+    width: auto !important;
+    text-align: center;
+    color:#999;
+}
+h2 {
+    margin-bottom: 10px;
     text-align: center;
     color:#999;
 }
@@ -23,12 +29,14 @@ h1, h3{
     border-style: solid;
 }
 
-input{
-	width: 350px;
-    padding: 5px;
+input {
+    border-style: solid;
+	width: 300px;
+    padding: 10px;
     margin: 3px;
     outline-color: #200040;
-    border-radius: 5px;
+    border-radius: 50px;
+    font-size: 14px;
 }
 
 ::placeholder{
@@ -36,7 +44,7 @@ input{
 }
 
 #idImg {
-    padding-top: 50px;
+    padding-top: 15px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
@@ -46,34 +54,14 @@ div {
 }
 
 #idCalcular, #limpaForm {
-  background-color: #222;
-  border-radius: 4px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin: 0;
-  max-width: none;
-  min-height: 44px;
-  min-width: 10px;
-  outline: none;
-  overflow: hidden;
-  padding: 9px 20px 8px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 100%;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
-#idCalcular:hover, #limpaForm:hover,
-#idCalcular:focus, #limpaForm:focus {
-  opacity: .75;
+#idCalcular:hover, #limpaForm:hover
+{
+  opacity: .55;
 }
